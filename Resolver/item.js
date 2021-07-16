@@ -1,5 +1,4 @@
 import {nanoid} from 'nanoid'
-import {itemScehma} from './Schema/item'
 
 class Item {
     constructor(id, {ItemName, Price, Category, Description, Reviews}) {
@@ -24,3 +23,5 @@ const resolvers = {
         return new Item(id, input)
     }
 }
+
+export default resolvers;
