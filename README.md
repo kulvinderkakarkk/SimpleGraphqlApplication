@@ -10,14 +10,20 @@ Category | Category in which the item falls. It only has to be one of MBOILE, PC
 Description | A general Description of the item | NOT MANDATORY | String |
 Reviews | Individual Reviews of an item. Contains two sub-variables: Name (String) and Review (Integer)  | NOT MANDATORY | Object |
 
-TECHNOLOGIES USED: NODEJS & GraphQL API
+RESOLVER METHODS | DESCRIPTION | TYPE |
+--| --| --| --| 
+createItem | Insert Item | Mutation |
+getItem | retrieve Item by ID | Query |
+
+
+TECHNOLOGIES USED: **NODEJS & GraphQL API**
 
 ## STEPS TO START THE PROJECT
 - Clone the project and cd into the directory.
 - Run npm install
 - Start graphql server on http://localhost:8082/graphql
 
-example query:
+example query: 
 //
 <pre>
 mutation {<br/>
