@@ -2,18 +2,18 @@
 This application uses GraphQL to insert and get elements in an item object. This repository just demonstrates the simple working of GraphQL API in nodejs. 
 Item class has many properties such as:
 
-Parameter | Description | Mandatory/ Not Mandatory (NM) | Type |
+| Parameter | Description | Mandatory/ Not Mandatory (NM) | Type |
 --|--|--| --|
-ItemName | Name of the item to be inserted | Mandatory | String |
-Price | Price of the above Item | Mandatory | Not Mandatory | Integer |
-Category | Category in which the item falls. It only has to be one of MBOILE, PC, KITCHEN APPLIANCE, OTHER HARDWARE | NOT MANDATORY | ENUM |
-Description | A general Description of the item | NOT MANDATORY | String |
-Reviews | Individual Reviews of an item. Contains two sub-variables: Name (String) and Review (Integer)  | NOT MANDATORY | Object |
+| ItemName | Name of the item to be inserted | Mandatory | String |
+| Price | Price of the above Item | Mandatory | Not Mandatory | Integer |
+| Category | Category in which the item falls. It only has to be one of MBOILE, PC, KITCHEN | | APPLIANCE, OTHER HARDWARE | NOT MANDATORY | ENUM |
+| Description | A general Description of the item | NOT MANDATORY | String |
+| Reviews | Individual Reviews of an item. Contains two sub-variables: Name (String) and Review (Integer)  | NOT MANDATORY | Object |
 
-RESOLVER METHODS | DESCRIPTION | TYPE |
---| --| --| --| 
-createItem | Insert Item | Mutation |
-getItem | retrieve Item by ID | Query |
+| RESOLVER METHODS | DESCRIPTION | TYPE |
+| --| --| --| --| 
+| createItem | Insert Item | Mutation |
+| getItem | retrieve Item by ID | Query |
 
 
 TECHNOLOGIES USED: **NODEJS & GraphQL API**
