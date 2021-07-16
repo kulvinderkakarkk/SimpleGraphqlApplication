@@ -19,6 +19,7 @@ TECHNOLOGIES USED: NODEJS & GraphQL API
 
 example query:
 //
+<pre>
 mutation {<br/>
   createItem(input: {<br/>
     ItemName:"Apple",<br/>
@@ -41,4 +42,5 @@ mutation {<br/>
     }<br/>
   } <br/>
 } <br/>
+</pre>
 //
