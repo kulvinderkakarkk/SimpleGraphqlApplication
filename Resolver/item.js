@@ -18,6 +18,7 @@ const resolvers = {
         return new Item(id, itemholder[id])
     },
     createItem: ({input}) => {
+        // generate random id
         let id = nanoid()
         itemholder[id] = input
         return new Item(id, input)
