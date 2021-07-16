@@ -19,26 +19,26 @@ TECHNOLOGIES USED: NODEJS & GraphQL API
 
 example query:
 //
-mutation {
-  createItem(input: {
-    ItemName:"Apple",
-    Price:45000
-    Description:"great"
-    Reviews:[{
-      Name:"IPHONE",
-      Rating:4
-    }]
-    
-  }) {
-    id,
-    ItemName,
-    Price,
-    Category,
-    Description,
-    Reviews {
-      Name
-      Rating
-    }
-  } 
-}
+mutation {<br/>
+  createItem(input: {<br/>
+    ItemName:"Apple",<br/>
+    Price:45000<br/>
+    Description:"great"<br/>
+    Reviews:[{<br/>
+      Name:"IPHONE",<br/>
+      Rating:4<br/>
+    }]<br/>
+    <br/>
+  }) {<br/>
+    id,<br/>
+    ItemName,<br/>
+    Price,<br/>
+    Category,<br/>
+    Description,<br/>
+    Reviews {<br/>
+      Name<br/>
+      Rating<br/>
+    }<br/>
+  } <br/>
+} <br/>
 //
